@@ -10,4 +10,4 @@ categories:
 
 ## Start!
 
-Hello Taeuk and seongmin
+Hello Taeuk and seongmin!
