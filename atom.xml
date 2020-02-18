@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lit-element-study.github.io/"/>
-  <updated>2020-02-18T14:56:07.518Z</updated>
+  <updated>2020-02-18T15:17:19.081Z</updated>
   <id>https://lit-element-study.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>init</title>
+    <title>Init</title>
     <link href="https://lit-element-study.github.io/wiki/init/"/>
     <id>https://lit-element-study.github.io/wiki/init/</id>
     <published>2020-02-18T14:55:35.000Z</published>
-    <updated>2020-02-18T14:56:07.518Z</updated>
+    <updated>2020-02-18T15:17:19.081Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Start"><a href="#Start" class="headerlink" title="Start!"></a>Start!</h2><p>Hello Taeuk and seongmin</p>]]></content>
     
@@ -35,10 +35,10 @@
     
     </summary>
     
-      <category term="log" scheme="https://lit-element-study.github.io/categories/log/"/>
+      <category term="Log" scheme="https://lit-element-study.github.io/categories/Log/"/>
     
     
-      <category term="log" scheme="https://lit-element-study.github.io/tags/log/"/>
+      <category term="Log" scheme="https://lit-element-study.github.io/tags/Log/"/>
     
   </entry>
   
