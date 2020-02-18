@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: TAEUK WEB
-subtitle: Javascript Library
+title: Lit-Element Study WIKI
+subtitle: Lit-Element Study WIKI
 description: For Memory
 keywords: Javascript
-author: Taeuk Kang
+author: Taeuk Kang, Juyudang
 language: ko
 timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://taeuk-gang.github.io
+url: https://lit-element-study.github.io/lit-element-wiki
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: wiki/:title/
@@ -118,5 +118,5 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/taeuk-gang/taeuk-gang.github.io.git
+  repo: https://github.com/lit-element-study/lit-element-wiki.git
   branch: master
