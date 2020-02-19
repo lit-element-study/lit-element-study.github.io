@@ -164,6 +164,24 @@
                         <a href="#" data-role="directory">
                             <i class="fa fa-folder"></i>
                             &nbsp;
+                            Javascript
+                        </a>
+                         <ul class="unstyled" id="tree" > 
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
+                            Lit-element
+                        </a>
+                         <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/Javascript component/">Javascript component</a></li>  </ul> 
+                    </li> 
+                     </ul> 
+                    </li> 
+                    
+                    <li class="directory">
+                        <a href="#" data-role="directory">
+                            <i class="fa fa-folder"></i>
+                            &nbsp;
                             Log
                         </a>
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/wiki/init/">Init</a></li>  </ul> 
@@ -240,6 +258,110 @@
 </aside>
             
             <section id="main">
+        <article id="post-Javascript component" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+    <div class="article-category">
+    	<i class="fa fa-folder"></i>
+        <a class="article-category-link" href="/categories/Javascript/">Javascript</a><i class="fa fa-angle-right"></i><a class="article-category-link" href="/categories/Javascript/Lit-element/">Lit-element</a>
+    </div>
+
+                        
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/Javascript/">Javascript</a>, <a class="tag-link" href="/tags/Lit-element/">Lit-element</a>
+    </div>
+
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/wiki/Javascript component/">
+            <time datetime="2020-02-19T08:36:35.000Z" itemprop="datePublished">2020-02-19</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a href='https://github.com/taeuk-gang/taeuk-gang.github.io/raw/writing/source/_posts/Javascript component.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/taeuk-gang/taeuk-gang.github.io/edit/writing/source/_posts/Javascript component.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a href='https://github.com/taeuk-gang/taeuk-gang.github.io/commits/writing/source/_posts/Javascript component.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/wiki/Javascript component/">Javascript component</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <!-- Bug Exist: When start table html, crash main page. -->
+                    <p><h2 id="Javascript-형식-컴포넌트-기본적인-구조"><a href="#Javascript-형식-컴포넌트-기본적인-구조" class="headerlink" title="Javascript 형식 컴포넌트 기본적인 구조"></a>Javascript 형식 컴포넌트 기본적인 구조</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; LitElement, html &#125; <span class="keyword">from</span> <span class="string">'lit-element'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">export</span> <span class="class"><span class="keyword">class</span> <span class="title">MyElement</span> <span class="keyword">extends</span> <span class="title">LitElement</span> </span>&#123;</span><br><span class="line">  render() &#123;</span><br><span class="line">    <span class="keyword">return</span> html<span class="string">`</span></span><br><span class="line"><span class="string">      &lt;p&gt;My First JavaScript lit-element-component.&lt;/p&gt;</span></span><br><span class="line"><span class="string">    `</span>; <span class="comment">// ``백틱 사이에 html형식으로 리턴함</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">customElements.define(<span class="string">'my-element'</span>, MyElement); <span class="comment">// 컴포넌트 이름 : &lt;my-element&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="내가-만든-컴포넌트-사용법-import"><a href="#내가-만든-컴포넌트-사용법-import" class="headerlink" title="내가 만든 컴포넌트 사용법(import)"></a>내가 만든 컴포넌트 사용법(import)</h3><h4 id="1-HTML"><a href="#1-HTML" class="headerlink" title="1. HTML"></a>1. HTML</h4><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"module"</span> <span class="attr">src</span>=<span class="string">"./my-element.js"</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">  <span class="comment">&lt;!-- src="해당 컴포넌트 주소(위치)" --&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">my-element</span>&gt;</span><span class="tag">&lt;/<span class="name">my-element</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="2-Javascript"><a href="#2-Javascript" class="headerlink" title="2. Javascript"></a>2. Javascript</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'./my-element1.js'</span>; <span class="comment">// ''사이 해당 컴포넌트 위치</span></span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">  render() &#123;</span><br><span class="line">    <span class="keyword">return</span> html<span class="string">`</span></span><br><span class="line"><span class="string">      &lt;my-element1&gt;&lt;/my-element1&gt;</span></span><br><span class="line"><span class="string">    `</span>;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/wiki/Javascript component/#more">자세히 보기</a>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-init" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
