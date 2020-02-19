@@ -8,7 +8,7 @@ categories: Git
 
 ## Git Commit 메세지 분류
 
-> Updated Time: 2019-07-21 17:35:12
+> Updated Time: 2020-02-21 19:35:50
 
 <br />
 
