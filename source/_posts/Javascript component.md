@@ -3,13 +3,11 @@ title: Javascript component
 toc: true
 date: 2020-02-19 17:36:35
 tags:
-  - lit-element
-  - javascript
-  - component
+  - Lit-element
+  - Javascript
 categories:
-  - component
-  - lit-element
-  - javascript
+  - Javascript
+  - Lit-element
 ---
 
 ## Javascript 형식 컴포넌트 기본적인 구조
