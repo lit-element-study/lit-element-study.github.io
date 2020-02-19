@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lit-element-study.github.io/"/>
-  <updated>2020-02-19T11:11:39.464Z</updated>
+  <updated>2020-02-19T11:43:10.788Z</updated>
   <id>https://lit-element-study.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git Commit 메세지 분류</title>
+    <link href="https://lit-element-study.github.io/wiki/Git-Commit/"/>
+    <id>https://lit-element-study.github.io/wiki/Git-Commit/</id>
+    <published>2020-02-21T10:35:12.000Z</published>
+    <updated>2020-02-19T11:43:10.788Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Git-Commit-메세지-분류"><a href="#Git-Commit-메세지-분류" class="headerlink" title="Git Commit 메세지 분류"></a>Git Commit 메세지 분류</h2><blockquote><p>Updated Time: 2020-02-21 19:35:50</p></blockquote><br><table><thead><tr><th align="left">Commit type</th><th align="left">Emoji</th></tr></thead><tbody><tr><td align="left">최초 커밋</td><td align="left">🎉 <code>:tada:</code></td></tr><tr><td align="left">기능 추가</td><td align="left">🆕 <code>:new:</code></td></tr><tr><td align="left">기능 버전업</td><td align="left">🆙  <code>:up:</code></td></tr><tr><td align="left">버스 픽스</td><td align="left">🐛 <code>:bug:</code></td></tr><tr><td align="left">문서화</td><td align="left">📝 <code>:memo:</code></td></tr><tr><td align="left">작업 완료</td><td align="left">✅ <code>:white_check_mark:</code></td></tr><tr><td align="left">디자인 수정</td><td align="left">🎨 <code>:art:</code></td></tr><tr><td align="left">코드개선</td><td align="left">🔨 : <code>:hammer:</code></td></tr><tr><td align="left">파일/코드 제거</td><td align="left">🔥 <code>:fire:</code></td></tr><tr><td align="left">작업 중</td><td align="left">🚧  <code>:construction:</code></td></tr><tr><td align="left">모듈 제거</td><td align="left">➖ <code>:heavy_minus_sign:</code></td></tr><tr><td align="left">모듈 추가</td><td align="left">➕ <code>:heavy_plus_sign:</code></td></tr><tr><td align="left">파일 수정</td><td align="left">🔧 <code>:wrench:</code></td></tr><tr><td align="left">패키지 파일 수정</td><td align="left">📦 <code>:package:</code></td></tr><tr><td align="left">Merged</td><td align="left">🔀 <code>:twisted_rightwards_arrows:</code></td></tr><tr><td align="left">Trash Code</td><td align="left">💩 <code>:hankey:</code></td></tr><tr><td align="left">Other</td><td align="left"><a href="http://www.emoji-cheat-sheet.com/" target="_blank" rel="noopener">Be creative</a></td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Git-Commit-메세지-분류&quot;&gt;&lt;a href=&quot;#Git-Commit-메세지-분류&quot; class=&quot;headerlink&quot; title=&quot;Git Commit 메세지 분류&quot;&gt;&lt;/a&gt;Git Commit 메세지 분류&lt;/h2&gt;&lt;blockquote&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Git" scheme="https://lit-element-study.github.io/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="https://lit-element-study.github.io/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>Javascript component</title>
@@ -50,16 +76,16 @@
     <link href="https://lit-element-study.github.io/wiki/init/"/>
     <id>https://lit-element-study.github.io/wiki/init/</id>
     <published>2020-02-18T14:55:35.000Z</published>
-    <updated>2020-02-18T15:18:20.378Z</updated>
+    <updated>2020-02-19T11:45:09.190Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Start"><a href="#Start" class="headerlink" title="Start!"></a>Start!</h2><p>Hello Taeuk and seongmin!</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Start"><a href="#Start" class="headerlink" title="Start!"></a>Start!</h2><p>Hello Taeuk and seongmin!</p><iframe src="https://stackblitz.com/edit/lit-element-start?embed=1&file=my-element.js"></iframe>]]></content>
     
     <summary type="html">
     
       
       
         &lt;h2 id=&quot;Start&quot;&gt;&lt;a href=&quot;#Start&quot; class=&quot;headerlink&quot; title=&quot;Start!&quot;&gt;&lt;/a&gt;Start!&lt;/h2&gt;&lt;p&gt;Hello Taeuk and seongmin!&lt;/p&gt;
-
+&lt;iframe src=&quot;https://stack
       
     
     </summary>

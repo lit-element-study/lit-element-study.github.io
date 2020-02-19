@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lit-element-study.github.io/wiki/Javascript%20component/</loc>
+    <loc>https://lit-element-study.github.io/wiki/init/</loc>
     
-    <lastmod>2020-02-19T11:11:39.464Z</lastmod>
+    <lastmod>2020-02-19T11:45:09.190Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lit-element-study.github.io/wiki/init/</loc>
+    <loc>https://lit-element-study.github.io/wiki/Git-Commit/</loc>
     
-    <lastmod>2020-02-18T15:18:20.378Z</lastmod>
+    <lastmod>2020-02-19T11:43:10.788Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lit-element-study.github.io/wiki/Javascript%20component/</loc>
+    
+    <lastmod>2020-02-19T11:11:39.464Z</lastmod>
     
   </url>
   
